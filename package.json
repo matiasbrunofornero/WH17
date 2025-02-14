@@ -1,0 +1,28 @@
+{
+  "name": "whit3f0re5t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "npx playwright test --ui",
+    "headless": "npx playwright test",
+    "report": "npx playwright show-report",
+    "parallel": "npx playwright test --workers 20",
+    "test": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbrunofornero/whit3F0re5t.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasbrunofornero/whit3F0re5t/issues"
+  },
+  "homepage": "https://github.com/matiasbrunofornero/whit3F0re5t#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0"
+  }
+}
