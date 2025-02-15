@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("api test", async ({ request }) => {
+test("api test - work in progress", async ({ request }) => {
   let response = await request.get("/todos/1");
   expect(response.status()).toBe(304);
   expect(response.statusText()).toBe("Not Modified");
@@ -21,13 +21,13 @@ test("api test", async ({ request }) => {
   });
 
   expect(response.status()).toBe(200);
-  console.log(response.body());
+  // console.log(response.body());
 
   expect(response.statusText()).toBe("OK");
 
   response = await request.delete("/posts/1");
   expect(response.status()).toBe(200);
-  console.log(response.body());
+  // console.log(response.body());
 
   expect(response.statusText()).toBe("OK");
 });

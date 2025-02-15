@@ -4,4 +4,5 @@ export const NavigationBarLocators = {
   AboutUsButton: ``,
   LogInButton: { role: "link", name: "Log in" },
   SignUpButton: { role: "link", name: "Sign up" },
+  WelcomeMessage: `#nameofuser`
 };

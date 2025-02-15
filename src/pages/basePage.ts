@@ -30,8 +30,4 @@ export class BasePage {
   async selectOption(selector: string, value: string) {
     await this.page.selectOption(selector, value);
   }
-
-  async expectVisible(selector: string) {
-    await expect(this.page.locator(selector)).toBeVisible();
-  }
 }

@@ -1,9 +1,10 @@
 {
-  "name": "whit3f0re5t",
+  "name": "WH17",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "api": "npx playwright test api.spec.ts",
     "debug": "npx playwright test --ui",
     "headless": "npx playwright test",
     "report": "npx playwright show-report",
@@ -12,17 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matiasbrunofornero/whit3F0re5t.git"
+    "url": "git+https://github.com/matiasbrunofornero/WH17.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matiasbrunofornero/whit3F0re5t/issues"
+    "url": "https://github.com/matiasbrunofornero/WH17/issues"
   },
-  "homepage": "https://github.com/matiasbrunofornero/whit3F0re5t#readme",
+  "homepage": "https://github.com/matiasbrunofornero/WH17#readme",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
